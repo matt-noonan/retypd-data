@@ -1,0 +1,68 @@
+Parsing dia2dump output ./dia2dump/Fractals.exe.dia2dump with base 0x400000
+###############################################################
+#    TYPES
+###############################################################
+type 5 float64_t
+type 4 float32_t
+type 3 uint8_t
+type 7 num8_t
+type 6 ptr(num8_t)
+type 2 code_t
+type 8 ptr(ptr(num8_t))
+type 1 ptr(struct(0:float64_t,32:float64_t,48:float64_t,8:float64_t,16:float64_t,40:float64_t,56:float64_t,24:float64_t))
+type 0 num32_t
+###############################################################
+#    FUNCTIONS
+###############################################################
+@401440
+	@0 <any> 2
+	@4 <initial> 0
+	@8 <initial> 0
+	@c <initial> 0
+@401320
+	@0 <any> 2
+	@4 <initial> 3
+	@8 <initial> 0
+	@c <initial> 0
+@401230
+	@0 <any> 2
+	@4 <initial> 0
+	@8 <initial> 0
+	@fffffff8 <any> 4
+@401000
+	@0 <any> 2
+	@4 <initial> 0
+	@8 <initial> 5
+	@10 <initial> 5
+	@18 <initial> 5
+	@20 <initial> 5
+	@28 <initial> 5
+	@30 <initial> 5
+	@fffffff0 <any> 5
+	@fffffff8 <any> 5
+@4016b0
+	@0 <any> 2
+	@fffffef4 <any> 7
+@401190
+	@0 <any> 2
+@401960
+	@0 <any> 2
+	@4 <initial> 0
+	@8 <initial> 8
+###############################################################
+#    GLOBALS
+###############################################################
+@40401c <global> 0
+@404398 <global> 1
+@404018 <global> 0
+@40439c <global> 0
+###############################################################
+#    STATS
+###############################################################
+#
+#  functions:  7
+#  parameters: 17
+#  returns:    0
+#  locals:     11
+#  globals:    4
+#  types:      9

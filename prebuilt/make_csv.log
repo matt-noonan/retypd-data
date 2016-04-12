@@ -1,0 +1,16 @@
+=====================================================================
+
+Final averages (metrics averaged over each benchmark):
+  Distance (TIE)   :  0.474860315139 (out of 4.0, best = 0.0)
+  Interval size    :  1.05734428519 (out of 4.0, best = 0.0)
+  Conservativeness :  93.8689386024%, best = 100%
+  Pointer accuracy :  90.3176940139%, best = 100%
+
+Final averages (metrics averaged over each type variable):
+  Distance (TIE)   :  0.484907848031 (out of 4.0, best = 0.0)
+  Interval size    :  0.999054928224 (out of 4.0, best = 0.0)
+  Conservativeness :  93.2712518942%, best = 100%
+  Pointer accuracy :  88.9516899947%, best = 100%
+
+(see data.csv for full information)
+

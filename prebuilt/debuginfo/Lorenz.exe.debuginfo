@@ -1,0 +1,73 @@
+Parsing dia2dump output ./dia2dump/Lorenz.exe.dia2dump with base 0x400000
+###############################################################
+#    TYPES
+###############################################################
+type 7 float64_t
+type 2 float32_t
+type 6 uint8_t
+type 4 num8_t
+type 3 ptr(num8_t)
+type 0 code_t
+type 8 ptr(ptr(num8_t))
+type 5 ptr(float64_t)
+type 1 num32_t
+###############################################################
+#    FUNCTIONS
+###############################################################
+@401850
+	@0 <any> 0
+	@4 <initial> 1
+	@8 <initial> 1
+	@fffffff8 <any> 2
+@4016e0
+	@0 <any> 0
+	@4 <initial> 3
+@401690
+	@0 <any> 0
+	@4 <initial> 5
+@401680
+	@0 <any> 0
+	@4 <initial> 1
+	@8 <initial> 1
+	@c <initial> 1
+	@10 <initial> 1
+@401580
+	@0 <any> 0
+	@4 <initial> 1
+	@8 <initial> 1
+	@c <initial> 1
+@401710
+	@0 <any> 0
+@4011b0
+	@0 <any> 0
+	@4 <initial> 6
+	@8 <initial> 1
+	@c <initial> 1
+	@ffffffa4 <any> 4
+@401000
+	@0 <any> 0
+	@4 <initial> 7
+	@ffffffb4 <any> 7
+	@ffffffcc <any> 7
+	@ffffffe4 <any> 7
+@401910
+	@0 <any> 0
+	@4 <initial> 1
+@4019f0
+	@0 <any> 0
+	@4 <initial> 1
+	@8 <initial> 8
+	@fffffff8 <any> 1
+###############################################################
+#    GLOBALS
+###############################################################
+###############################################################
+#    STATS
+###############################################################
+#
+#  functions:  10
+#  parameters: 18
+#  returns:    0
+#  locals:     16
+#  globals:    0
+#  types:      9

@@ -1,0 +1,1536 @@
+Parsing dia2dump output ./dia2dump/pageant.exe.dia2dump with base 0x400000
+###############################################################
+#    TYPES
+###############################################################
+type 11 ptr(TOP)
+type 46 struct(0:uint32_t,64:uint32_t,128:uint32_t,132:uint32_t)
+type 34 struct(0:uint32_t,84:num32_t,20:uint8_t,88:uint32_t,92:uint32_t)
+type 30 ptr(struct(0:ptr(struct(0:TOP,20:num32_t,4:TOP,36:ptr(TOP))),20:num32_t,4:ptr(struct(0:TOP,20:num32_t,4:TOP,36:ptr(TOP))),36:ptr(TOP)))
+type 21 ptr(struct(0:num32_t,32:ptr(num8_t),4:num32_t,8:ptr(TOP),12:ptr(TOP),16:ptr(TOP),20:ptr(TOP),24:ptr(TOP),28:ptr(TOP)))
+type 10 ptr(ptr(num8_t))
+type 24 struct(0:num32_t,32:ptr(num8_t),4:num32_t,8:ptr(TOP),12:ptr(TOP),16:ptr(TOP),20:ptr(TOP),24:ptr(TOP),28:ptr(TOP))
+type 22 ptr(struct(0:ptr(struct(0:code_t,32:code_t,4:code_t,48:ptr(num8_t),8:code_t,44:code_t,12:code_t,16:code_t,40:code_t,20:code_t,24:code_t,36:code_t,28:code_t,52:ptr(num8_t))),8:ptr(num8_t),4:ptr(TOP)))
+type 16 ptr(uint8_t)
+type 19 struct(0:uint32_t,32:uint32_t,4:uint32_t,8:uint32_t,44:ptr(num32_t),12:uint32_t,16:uint32_t,40:uint32_t,20:ptr(num32_t),24:ptr(num32_t),36:ptr(num8_t),28:ptr(num32_t))
+type 35 ptr(struct(0:struct(0:uint32_t,4:uint32_t),64:uint8_t,192:num32_t,196:uint32_t))
+type 38 struct(0:struct(0:uint32_t,4:uint32_t),64:uint8_t,192:num32_t,196:uint32_t)
+type 17 uint8_t
+type 15 struct(0:num32_t,8:num32_t,4:num32_t,12:num32_t)
+type 12 ptr(ptr(TOP))
+type 45 ptr(struct(0:uint32_t,64:uint32_t,128:uint32_t,132:uint32_t))
+type 32 ptr(uint32_t)
+type 51 struct(0:uint32_t,480:uint32_t,960:code_t,968:uint32_t,1004:num32_t,1000:num32_t,964:code_t)
+type 20 struct(0:ptr(num8_t),4:ptr(num8_t))
+type 40 ptr(struct(0:ptr(num8_t),4:num32_t,8:ptr(num8_t),12:num32_t,16:num32_t,20:num32_t,24:num32_t,28:ptr(num8_t)))
+type 27 struct(0:num32_t,4:num32_t)
+type 25 struct(0:ptr(uint8_t),4:num32_t)
+type 44 ptr(struct(0:code_t,32:num32_t,4:code_t,8:code_t,12:code_t,16:code_t,20:code_t,24:ptr(num8_t),36:ptr(num8_t),28:num32_t))
+type 42 ptr(struct(0:uint32_t,16:uint8_t,84:uint32_t,80:num32_t,88:uint32_t))
+type 3 num32_t
+type 47 ptr(uint16_t)
+type 36 struct(0:uint32_t,4:uint32_t)
+type 1 ptr(num8_t)
+type 13 struct(0:uint32_t,8:ptr(TOP),4:uint32_t)
+type 2 ptr(struct(0:uint32_t,32:uint32_t,4:ptr(num32_t),68:code_t,48:ptr(num8_t),8:ptr(num32_t),44:ptr(num8_t),12:ptr(num8_t),64:num32_t,60:ptr(num8_t),16:ptr(num8_t),40:uint32_t,20:uint32_t,56:uint16_t,24:uint32_t,36:ptr(num8_t),58:uint16_t,28:ptr(num8_t),72:ptr(num8_t),52:uint32_t))
+type 14 ptr(struct(0:ptr(struct(0:ptr(struct(0:TOP,20:num32_t,4:TOP,36:ptr(TOP))),20:num32_t,4:ptr(struct(0:TOP,20:num32_t,4:TOP,36:ptr(TOP))),36:ptr(TOP))),4:code_t))
+type 8 ptr(num32_t)
+type 28 struct(0:ptr(num32_t),4:uint32_t,8:uint32_t,12:num32_t,16:uint32_t,20:struct(0:num32_t,4:num32_t))
+type 18 struct(0:uint32_t,4:ptr(num32_t),8:uint32_t,12:uint32_t,16:uint32_t,20:ptr(num32_t),24:num8_t)
+type 5 ptr(struct(0:uint32_t,4:num32_t,8:num32_t,12:ptr(TOP),16:uint32_t,20:struct(0:num32_t,4:num32_t)))
+type 26 struct(0:uint32_t,32:uint32_t,4:ptr(num32_t),68:code_t,48:ptr(num8_t),8:ptr(num32_t),44:ptr(num8_t),12:ptr(num8_t),64:num32_t,60:ptr(num8_t),16:ptr(num8_t),40:uint32_t,20:uint32_t,56:uint16_t,24:uint32_t,36:ptr(num8_t),58:uint16_t,28:ptr(num8_t),72:ptr(num8_t),52:uint32_t)
+type 43 struct(0:code_t,32:num32_t,4:code_t,8:code_t,12:code_t,16:code_t,20:code_t,24:ptr(num8_t),36:ptr(num8_t),28:num32_t)
+type 23 struct(0:uint32_t,16:uint8_t,84:uint32_t,80:num32_t,88:uint32_t)
+type 39 ptr(ptr(uint8_t))
+type 9 ptr(ptr(ptr(num8_t)))
+type 33 ptr(struct(0:uint32_t,84:num32_t,20:uint8_t,88:uint32_t,92:uint32_t))
+type 4 num8_t
+type 7 struct(0:uint32_t,32:code_t,4:ptr(num32_t),8:ptr(num32_t),12:ptr(num8_t),16:ptr(num8_t),20:uint32_t,24:ptr(num8_t),36:uint32_t,28:uint32_t)
+type 0 code_t
+type 50 ptr(struct(0:uint32_t,480:uint32_t,960:code_t,968:uint32_t,1004:num32_t,1000:num32_t,964:code_t))
+type 31 ptr(ptr(struct(0:ptr(struct(0:TOP,20:num32_t,4:TOP,36:ptr(TOP))),20:num32_t,4:ptr(struct(0:TOP,20:num32_t,4:TOP,36:ptr(TOP))),36:ptr(TOP))))
+type 49 ptr(ptr(uint16_t))
+type 6 uint32_t
+type 37 ptr(struct(0:uint32_t,4:uint32_t))
+type 29 struct(0:uint32_t,32:ptr(num8_t),4:code_t,8:num32_t,12:num32_t,16:ptr(num32_t),20:ptr(num32_t),24:ptr(num32_t),36:ptr(num8_t),28:ptr(num32_t))
+type 41 ptr(struct(0:code_t,32:code_t,4:code_t,48:ptr(num8_t),8:code_t,44:code_t,12:code_t,16:code_t,40:code_t,20:code_t,24:code_t,36:code_t,28:code_t,52:ptr(num8_t)))
+type 48 uint16_t
+type 52 ptr(struct(0:ptr(struct(0:ptr(struct(0:TOP,8:num32_t,4:num32_t,12:num8_t)),8:num32_t,4:num32_t,12:num8_t)),8:num32_t,4:ptr(struct(0:ptr(struct(0:TOP,8:num32_t,4:num32_t,12:num8_t)),8:num32_t,4:num32_t,12:num8_t))))
+###############################################################
+#    FUNCTIONS
+###############################################################
+@414f10
+	@0 <any> 0
+	@4 <initial> 1
+	@8 <initial> 2
+	@c <initial> 3
+	@10 <initial> 3
+	@fffffef8 <any> 4
+@414fe0
+	@0 <any> 0
+@415000
+	@0 <any> 0
+	@4 <initial> 1
+@415010
+	@0 <any> 0
+	@4 <initial> 5
+	@ffffffa0 <any> 4
+@4150c0
+	@0 <any> 0
+	@4 <initial> 1
+	@8 <initial> 1
+	@c <initial> 6
+	@10 <initial> 6
+	@ffffffd8 <any> 7
+@415140
+	@0 <any> 0
+@4151b0
+	@0 <any> 0
+	@4 <initial> 1
+	@8 <initial> 8
+	@c <initial> 9
+	@10 <initial> 9
+	@fffffffc <any> 10
+	@fffffff8 <any> 10
+	@8 <any> 3
+	@fffffff4 <any> 1
+	@ffffffe8 <any> 3
+	@ffffffe4 <any> 3
+@414db0
+	@0 <any> 0
+@414dd0
+	@0 <any> 0
+	@4 <initial> 11
+	@8 <initial> 3
+	@c <initial> 12
+	@10 <initial> 8
+	@14 <initial> 0
+	@18 <initial> 11
+	@ffffffec <any> 8
+	@fffffff4 <any> 13
+	@fffffff0 <any> 11
+@411980
+	@0 <any> 0
+	@4 <initial> 1
+@4119c0
+	@0 <any> 0
+	@4 <initial> 3
+@411a30
+	@0 <any> 0
+@411a50
+	@0 <any> 0
+@411ad0
+	@0 <any> 0
+	@4 <initial> 8
+	@8 <initial> 6
+	@c <initial> 6
+	@10 <initial> 3
+@411b20
+	@0 <any> 0
+	@4 <initial> 8
+	@8 <initial> 6
+	@c <initial> 6
+	@10 <initial> 3
+@411bd0
+	@0 <any> 0
+	@4 <initial> 8
+	@8 <initial> 6
+	@c <initial> 6
+	@10 <initial> 3
+	@ffffffe0 <any> 15
+	@fffffff0 <any> 15
+@411d80
+	@0 <any> 0
+@411da0
+	@0 <any> 0
+	@fffffdfc <any> 4
+	@fffffdfc <any> 4
+@411f80
+	@0 <any> 0
+	@4 <initial> 8
+	@fffffff8 <any> 3
+	@fffffffc <any> 16
+	@8 <any> 3
+@412150
+	@0 <any> 0
+	@4 <initial> 8
+	@fffffff8 <any> 3
+	@fffffffc <any> 16
+	@8 <any> 3
+@412350
+	@0 <any> 0
+	@4 <initial> 8
+	@ffffffe8 <any> 3
+	@fffffff4 <any> 17
+	@ffffffec <any> 11
+@412450
+	@0 <any> 0
+	@4 <initial> 8
+	@ffffffe8 <any> 3
+	@fffffff4 <any> 17
+	@ffffffec <any> 11
+@412550
+	@0 <any> 0
+	@4 <initial> 11
+	@8 <initial> 11
+@4125e0
+	@0 <any> 0
+	@4 <initial> 11
+	@8 <initial> 11
+	@8 <any> 3
+	@fffffff8 <any> 3
+	@c <any> 16
+	@fffffffc <any> 3
+@412680
+	@0 <any> 0
+	@4 <initial> 11
+	@8 <initial> 11
+	@8 <any> 3
+	@c <any> 3
+	@fffffffc <any> 16
+@412700
+	@0 <any> 0
+	@4 <initial> 8
+	@ffffffa4 <any> 18
+@412790
+	@0 <any> 0
+	@fffffdec <any> 4
+	@fffffdbc <any> 19
+	@fffffdb4 <any> 8
+	@fffffdb8 <any> 3
+	@fffffef4 <any> 4
+@412950
+	@0 <any> 0
+	@4 <initial> 1
+	@8 <initial> 1
+	@c <initial> 3
+@4129b0
+	@0 <any> 0
+	@4 <initial> 0
+	@8 <initial> 11
+	@c <initial> 11
+	@10 <initial> 3
+@4129c0
+	@0 <any> 0
+	@4 <initial> 3
+@4129d0
+	@0 <any> 0
+	@4 <initial> 4
+	@fffffce8 <any> 1
+	@fffffdfc <any> 4
+	@fffffcc4 <any> 3
+	@fffffccc <any> 1
+	@fffffcc4 <any> 3
+	@fffffcf0 <any> 20
+	@fffffcc8 <any> 3
+	@fffffce0 <any> 21
+	@fffffcdc <any> 22
+	@fffffce4 <any> 3
+	@fffffcd0 <any> 3
+	@fffffcd8 <any> 11
+	@fffffcc8 <any> 3
+	@fffffcec <any> 16
+	@fffffcd4 <any> 3
+	@fffffcc4 <any> 3
+	@fffffcc8 <any> 11
+	@fffffce4 <any> 3
+	@fffffcc4 <any> 3
+	@fffffce0 <any> 11
+	@fffffce4 <any> 3
+	@fffffcc8 <any> 3
+@413210
+	@0 <any> 0
+	@4 <initial> 11
+	@ffffff30 <any> 16
+	@ffffff34 <any> 3
+	@ffffff34 <any> 3
+	@ffffff60 <any> 23
+	@ffffff3c <any> 24
+	@ffffffbc <any> 17
+	@ffffff34 <any> 11
+	@ffffffcc <any> 17
+	@ffffffbc <any> 25
+	@ffffff38 <any> 3
+	@ffffff34 <any> 21
+	@ffffff38 <any> 3
+	@ffffffbc <any> 3
+	@ffffff38 <any> 1
+	@ffffff38 <any> 3
+	@ffffff34 <any> 22
+	@ffffff3c <any> 24
+	@ffffffbc <any> 25
+@413ba0
+	@0 <any> 0
+	@fffffeac <any> 1
+	@fffffeb0 <any> 26
+@413d10
+	@0 <any> 0
+	@4 <initial> 8
+	@8 <initial> 6
+	@c <initial> 6
+	@10 <initial> 3
+	@ffffffe0 <any> 15
+	@fffffff0 <any> 15
+	@c <any> 3
+@414140
+	@0 <any> 0
+	@4 <initial> 8
+	@8 <initial> 6
+	@c <initial> 6
+	@10 <initial> 3
+	@fffffdb0 <any> 27
+	@fffffdec <any> 4
+	@fffffef4 <any> 4
+	@fffffdbc <any> 19
+	@fffffda8 <any> 11
+	@fffffdb0 <any> 11
+	@fffffdac <any> 11
+	@fffffdb8 <any> 11
+@4146e0
+	@0 <any> 0
+	@4 <initial> 8
+	@8 <initial> 8
+	@c <initial> 1
+	@10 <initial> 3
+	@fffff644 <any> 3
+	@fffff63c <any> 8
+	@fffff684 <any> 28
+	@fffff65c <any> 29
+	@fffff658 <any> 10
+	@fffff64c <any> 1
+	@fffff654 <any> 10
+	@fffff640 <any> 3
+	@fffff7fc <any> 4
+	@fffff7fc <any> 4
+	@fffff7a4 <any> 18
+@411760
+	@0 <any> 0
+	@4 <initial> 1
+	@8 <initial> 8
+	@c <initial> 16
+	@10 <initial> 8
+@411770
+	@0 <any> 0
+@411790
+	@0 <any> 0
+	@4 <initial> 1
+	@fffffef4 <any> 4
+@411800
+	@0 <any> 0
+	@4 <initial> 1
+@411810
+	@0 <any> 0
+	@4 <initial> 4
+	@108 <initial> 4
+@4118b0
+	@0 <any> 0
+	@4 <initial> 4
+@411900
+	@0 <any> 0
+	@fffffffc <any> 6
+@411950
+	@0 <any> 0
+@4106e0
+	@0 <any> 0
+	@4 <initial> 0
+@410700
+	@0 <any> 0
+	@4 <initial> 30
+@410740
+	@0 <any> 0
+	@4 <initial> 14
+@410790
+	@0 <any> 0
+@4107c0
+	@0 <any> 0
+	@4 <initial> 14
+@410800
+	@0 <any> 0
+	@4 <initial> 14
+	@8 <initial> 11
+	@fffffff4 <any> 31
+	@fffffff0 <any> 30
+	@ffffffec <any> 30
+	@fffffffc <any> 11
+	@fffffff8 <any> 3
+	@c <any> 30
+@410e10
+	@0 <any> 0
+	@4 <initial> 14
+	@8 <initial> 11
+@410e30
+	@0 <any> 0
+	@4 <initial> 14
+	@8 <initial> 11
+	@c <initial> 3
+@410e60
+	@0 <any> 0
+	@4 <initial> 14
+	@8 <initial> 3
+@410f00
+	@0 <any> 0
+	@4 <initial> 14
+	@8 <initial> 11
+	@c <initial> 0
+	@10 <initial> 3
+	@14 <initial> 8
+	@fffffffc <any> 3
+	@fffffff8 <any> 30
+@411030
+	@0 <any> 0
+	@4 <initial> 14
+	@8 <initial> 11
+	@c <initial> 0
+@4110d0
+	@0 <any> 0
+	@4 <initial> 14
+	@8 <initial> 11
+	@c <initial> 0
+	@10 <initial> 3
+@4110f0
+	@0 <any> 0
+	@4 <initial> 14
+	@8 <initial> 11
+	@c <initial> 0
+	@10 <initial> 8
+@411110
+	@0 <any> 0
+	@4 <initial> 14
+	@8 <initial> 3
+	@fffffffc <any> 11
+@4116c0
+	@0 <any> 0
+	@4 <initial> 14
+	@8 <initial> 3
+@411720
+	@0 <any> 0
+	@4 <initial> 14
+	@8 <initial> 11
+	@fffffffc <any> 3
+@40f9b0
+	@0 <any> 0
+@40f9e0
+	@0 <any> 0
+	@4 <initial> 32
+	@8 <initial> 32
+	@fffffebc <any> 6
+	@fffffeb8 <any> 3
+	@fffffeb8 <any> 6
+	@fffffec0 <any> 6
+@40ffe0
+	@0 <any> 0
+	@4 <initial> 33
+@410020
+	@0 <any> 0
+	@4 <initial> 33
+	@8 <initial> 11
+	@c <initial> 3
+	@ffffffc0 <any> 6
+	@c <any> 16
+@4101a0
+	@0 <any> 0
+	@4 <initial> 33
+	@8 <initial> 16
+	@ffffffbc <any> 17
+	@ffffffb4 <any> 3
+	@ffffffb8 <any> 6
+@4102f0
+	@0 <any> 0
+	@4 <initial> 11
+	@8 <initial> 3
+	@c <initial> 16
+	@ffffff9c <any> 34
+@410370
+	@0 <any> 0
+@410380
+	@0 <any> 0
+	@4 <initial> 11
+@410390
+	@0 <any> 0
+	@4 <initial> 16
+	@8 <initial> 3
+	@ffffffbc <any> 17
+@4104a0
+	@0 <any> 0
+	@4 <initial> 11
+	@8 <initial> 16
+@4104c0
+	@0 <any> 0
+	@4 <initial> 11
+	@8 <initial> 16
+@4104e0
+	@0 <any> 0
+	@4 <initial> 3
+	@8 <initial> 6
+	@ffffffe4 <any> 17
+	@ffffff84 <any> 34
+@4105b0
+	@0 <any> 0
+	@4 <initial> 11
+	@8 <initial> 16
+	@c <initial> 3
+	@10 <initial> 6
+@4105e0
+	@0 <any> 0
+	@4 <initial> 11
+	@8 <initial> 16
+	@c <initial> 3
+	@10 <initial> 6
+	@ffffffe8 <any> 17
+@410640
+	@0 <any> 0
+	@4 <initial> 11
+	@8 <initial> 3
+	@c <initial> 11
+	@10 <initial> 3
+	@14 <initial> 16
+	@ffffffe8 <any> 17
+	@ffffff28 <any> 34
+@40d930
+	@0 <any> 0
+@40d9c0
+	@0 <any> 0
+	@4 <initial> 35
+	@fffffd40 <any> 36
+	@fffffd50 <any> 36
+	@fffffd60 <any> 36
+	@fffffd68 <any> 36
+	@fffffd38 <any> 36
+	@fffffd30 <any> 36
+	@fffffd58 <any> 36
+	@fffffd48 <any> 36
+	@fffffd80 <any> 36
+	@fffffd60 <any> 36
+	@fffffd58 <any> 36
+	@fffffd50 <any> 36
+	@fffffd28 <any> 36
+	@fffffd20 <any> 36
+	@fffffd10 <any> 36
+	@fffffd18 <any> 36
+@40f430
+	@0 <any> 0
+	@4 <initial> 35
+@40f460
+	@0 <any> 0
+	@4 <initial> 35
+	@8 <initial> 11
+	@c <initial> 3
+	@ffffff80 <any> 36
+	@ffffff7c <any> 16
+@40f6c0
+	@0 <any> 0
+	@4 <initial> 35
+	@8 <initial> 16
+	@ffffff7c <any> 17
+	@ffffff6c <any> 6
+	@ffffff68 <any> 6
+@40f920
+	@0 <any> 0
+	@4 <initial> 11
+	@8 <initial> 3
+	@c <initial> 16
+	@ffffff28 <any> 38
+@40c0a0
+	@0 <any> 0
+	@4 <initial> 16
+	@8 <initial> 3
+	@c <initial> 21
+	@10 <initial> 39
+	@14 <initial> 3
+@40c1b0
+	@0 <any> 0
+	@4 <initial> 16
+	@8 <initial> 3
+	@c <initial> 21
+@40c1c0
+	@0 <any> 0
+	@4 <initial> 16
+	@8 <initial> 3
+	@c <initial> 21
+@40c280
+	@0 <any> 0
+	@fffffffc <any> 17
+@40c300
+	@0 <any> 0
+	@4 <initial> 11
+	@8 <initial> 21
+	@fffffee8 <any> 38
+	@fffffed8 <any> 11
+	@fffffee4 <any> 11
+	@fffffed4 <any> 3
+	@fffffee0 <any> 11
+	@ffffffbc <any> 17
+	@fffffee0 <any> 3
+	@fffffed0 <any> 3
+	@fffffedc <any> 17
+@40c540
+	@0 <any> 0
+	@4 <initial> 11
+	@8 <initial> 21
+@40c550
+	@0 <any> 0
+	@4 <initial> 21
+@40c5a0
+	@0 <any> 0
+	@4 <initial> 1
+	@8 <initial> 21
+	@c <any> 11
+@40c6a0
+	@0 <any> 0
+	@4 <initial> 1
+	@8 <initial> 3
+	@c <initial> 21
+	@ffffff38 <any> 23
+	@ffffffa4 <any> 4
+	@ffffff94 <any> 17
+	@ffffff37 <any> 17
+	@ffffff37 <any> 17
+@40c840
+	@0 <any> 0
+	@4 <initial> 21
+@40c940
+	@0 <any> 0
+	@4 <initial> 21
+	@8 <initial> 8
+@40c9d0
+	@0 <any> 0
+	@4 <initial> 11
+	@8 <initial> 3
+@40ca20
+	@0 <any> 0
+	@4 <initial> 21
+@40ca70
+	@0 <any> 0
+	@4 <initial> 10
+@40cac0
+	@0 <any> 0
+@40cb20
+	@0 <any> 0
+	@4 <initial> 1
+	@8 <initial> 3
+@40cbd0
+	@0 <any> 0
+	@4 <initial> 11
+@40cc20
+	@0 <any> 0
+	@4 <initial> 11
+@40cc80
+	@0 <any> 0
+	@4 <initial> 11
+	@8 <initial> 8
+	@fffffffc <any> 3
+	@8 <any> 3
+@40cda0
+	@0 <any> 0
+	@4 <initial> 11
+	@8 <initial> 8
+	@fffffff4 <any> 3
+	@fffffff8 <any> 3
+	@fffffffc <any> 3
+	@8 <any> 3
+@40cf50
+	@0 <any> 0
+	@4 <initial> 16
+	@8 <initial> 3
+	@c <initial> 16
+	@10 <initial> 3
+	@10 <any> 1
+@40cfc0
+	@0 <any> 0
+	@4 <initial> 39
+	@8 <initial> 8
+@40d0a0
+	@0 <any> 0
+	@4 <initial> 11
+	@8 <initial> 16
+	@c <initial> 3
+@40d3c0
+	@0 <any> 0
+	@4 <initial> 11
+	@8 <initial> 3
+@40d3f0
+	@0 <any> 0
+	@4 <initial> 11
+	@ffffff38 <any> 23
+	@ffffffa4 <any> 4
+	@ffffff34 <any> 17
+	@ffffff94 <any> 17
+	@ffffff33 <any> 17
+	@ffffff33 <any> 17
+@40d5f0
+	@0 <any> 0
+	@4 <initial> 11
+	@8 <initial> 1
+	@c <initial> 3
+	@10 <initial> 1
+	@14 <initial> 3
+	@ffffffe8 <any> 17
+@40d790
+	@0 <any> 0
+	@4 <initial> 11
+	@8 <initial> 1
+	@c <initial> 3
+	@10 <initial> 8
+	@ffffffe8 <any> 17
+@409ec0
+	@0 <any> 0
+	@4 <initial> 21
+	@8 <initial> 3
+	@c <initial> 10
+	@10 <initial> 10
+	@ffffbf7c <any> 3
+	@ffffbf90 <any> 23
+	@ffffbffc <any> 17
+	@ffffbf74 <any> 3
+	@ffffbf80 <any> 3
+	@ffffbfec <any> 17
+@40a260
+	@0 <any> 0
+	@4 <initial> 1
+	@8 <initial> 21
+	@c <initial> 1
+	@10 <initial> 10
+	@ffffffbc <any> 4
+	@ffffffac <any> 1
+@40a330
+	@0 <any> 0
+	@4 <initial> 1
+	@8 <initial> 10
+	@ffffffbc <any> 4
+	@ffffffb8 <any> 1
+@40a3d0
+	@0 <any> 0
+	@4 <initial> 1
+	@8 <initial> 12
+	@c <initial> 8
+	@10 <initial> 10
+	@ffffffbc <any> 4
+	@ffffff8c <any> 1
+	@ffffff98 <any> 24
+@40a520
+	@0 <any> 0
+	@4 <initial> 1
+	@8 <initial> 21
+	@c <initial> 1
+	@ffffbf90 <any> 23
+	@ffffbffc <any> 17
+	@ffffbfec <any> 17
+@40a820
+	@0 <any> 0
+@40a880
+	@0 <any> 0
+	@4 <initial> 40
+@40a940
+	@0 <any> 0
+	@4 <initial> 1
+	@8 <initial> 16
+	@fffffff0 <any> 3
+@40aa30
+	@0 <any> 0
+	@4 <initial> 40
+	@8 <initial> 3
+	@c <initial> 8
+	@fffffff8 <any> 16
+	@fffffffc <any> 3
+@40ab50
+	@0 <any> 0
+	@4 <initial> 1
+@40ab90
+	@0 <any> 0
+	@4 <initial> 1
+	@8 <initial> 1
+	@c <initial> 10
+	@ffffff80 <any> 4
+	@fffffef0 <any> 1
+	@ffffff04 <any> 3
+	@ffffff00 <any> 1
+	@fffffeec <any> 16
+	@fffffef4 <any> 1
+	@ffffff08 <any> 41
+	@fffffee0 <any> 3
+	@fffffee4 <any> 22
+	@ffffff1c <any> 3
+	@fffffedc <any> 1
+	@fffffef8 <any> 3
+	@fffffefc <any> 16
+	@ffffff10 <any> 3
+	@ffffff0c <any> 3
+	@fffffee8 <any> 3
+	@ffffff80 <any> 17
+	@ffffff20 <any> 34
+	@ffffffa8 <any> 17
+	@fffffedc <any> 3
+	@fffffee0 <any> 3
+	@ffffffd0 <any> 4
+	@fffffee4 <any> 3
+	@fffffee0 <any> 3
+	@fffffee8 <any> 3
+	@ffffff80 <any> 4
+	@ffffffbc <any> 17
+	@ffffff20 <any> 34
+@40b450
+	@0 <any> 0
+	@4 <initial> 1
+	@8 <initial> 10
+	@c <initial> 8
+	@10 <initial> 10
+	@ffffffd4 <any> 4
+	@ffffffc4 <any> 41
+	@ffffffc8 <any> 3
+	@ffffffbc <any> 1
+@40b6b0
+	@0 <any> 0
+	@4 <initial> 1
+	@8 <initial> 10
+	@ffffffd4 <any> 4
+@40b890
+	@0 <any> 0
+	@4 <initial> 3
+@40b8b0
+	@0 <any> 0
+	@4 <initial> 40
+	@8 <initial> 16
+	@c <initial> 3
+	@10 <initial> 3
+	@10 <any> 4
+@40b930
+	@0 <any> 0
+	@4 <initial> 1
+	@8 <initial> 22
+	@c <initial> 1
+	@ffffffac <any> 17
+	@ffffff28 <any> 16
+	@ffffff30 <any> 16
+	@ffffff24 <any> 1
+	@ffffff1c <any> 3
+	@ffffff2c <any> 16
+	@ffffff18 <any> 3
+	@ffffffc0 <any> 4
+	@ffffff3c <any> 3
+	@ffffff34 <any> 3
+	@ffffffe8 <any> 17
+	@ffffff40 <any> 3
+	@ffffff4c <any> 34
+	@ffffff38 <any> 3
+	@ffffffc0 <any> 17
+	@ffffff4c <any> 34
+@40beb0
+	@0 <any> 0
+	@4 <initial> 1
+	@ffffffac <any> 4
+	@ffffffb8 <any> 4
+	@ffffffd8 <any> 4
+	@ffffff94 <any> 4
+@40c040
+	@0 <any> 0
+	@4 <initial> 3
+@408e20
+	@0 <any> 0
+@408e40
+	@0 <any> 0
+	@4 <initial> 32
+	@fffffff4 <any> 6
+@409830
+	@0 <any> 0
+	@4 <initial> 42
+@409860
+	@0 <any> 0
+	@4 <initial> 42
+	@8 <initial> 16
+	@c <initial> 6
+	@ffffffc0 <any> 6
+	@c <any> 16
+@4099d0
+	@0 <any> 0
+	@4 <initial> 16
+	@8 <initial> 42
+	@ffffffbc <any> 17
+	@ffffffb4 <any> 6
+	@ffffffb8 <any> 6
+@409b10
+	@0 <any> 0
+	@4 <initial> 11
+	@8 <initial> 6
+	@c <initial> 16
+	@ffffffa0 <any> 23
+@409b90
+	@0 <any> 0
+@409ba0
+	@0 <any> 0
+	@4 <initial> 11
+@409bb0
+	@0 <any> 0
+	@4 <initial> 11
+	@8 <initial> 11
+	@c <initial> 3
+	@ffffffbc <any> 17
+@409cc0
+	@0 <any> 0
+	@4 <initial> 11
+	@8 <initial> 16
+@409ce0
+	@0 <any> 0
+	@4 <initial> 16
+	@8 <initial> 3
+	@c <initial> 3
+	@ffffffe8 <any> 17
+	@ffffff84 <any> 23
+@409da0
+	@0 <any> 0
+	@4 <initial> 11
+	@8 <initial> 16
+	@c <initial> 3
+	@10 <initial> 16
+@409dd0
+	@0 <any> 0
+	@4 <initial> 3
+	@8 <initial> 6
+	@ffffffec <any> 17
+@409e30
+	@0 <any> 0
+	@4 <initial> 11
+	@8 <initial> 16
+	@c <initial> 3
+	@10 <initial> 6
+@409e60
+	@0 <any> 0
+	@4 <initial> 11
+	@8 <initial> 16
+	@c <initial> 3
+	@10 <initial> 6
+	@ffffffec <any> 17
+@407a30
+	@0 <any> 0
+	@fffffffc <any> 17
+@407ab0
+	@0 <any> 0
+	@fffffffc <any> 17
+@407b30
+	@0 <any> 0
+	@4 <initial> 10
+@407b80
+	@0 <any> 0
+@407be0
+	@0 <any> 0
+@407c00
+	@0 <any> 0
+	@4 <initial> 1
+	@8 <initial> 3
+@407cc0
+	@0 <any> 0
+	@4 <initial> 11
+@407d00
+	@0 <any> 0
+	@4 <initial> 11
+@407f70
+	@0 <any> 0
+	@4 <initial> 11
+	@ffffff38 <any> 23
+	@ffffffa4 <any> 4
+	@ffffff34 <any> 17
+	@ffffff94 <any> 17
+	@ffffff33 <any> 17
+	@ffffff33 <any> 17
+	@ffffff33 <any> 17
+	@ffffff33 <any> 17
+@408260
+	@0 <any> 0
+	@4 <initial> 11
+	@8 <initial> 1
+	@c <initial> 3
+	@10 <initial> 1
+	@14 <initial> 3
+	@ffffffe8 <any> 4
+	@ffffffd4 <any> 11
+	@ffffffe0 <any> 11
+	@ffffffd4 <any> 11
+	@ffffffe4 <any> 11
+	@ffffffd8 <any> 11
+	@ffffffdc <any> 11
+	@ffffffdc <any> 3
+	@ffffffe0 <any> 1
+@408450
+	@0 <any> 0
+	@4 <initial> 11
+	@8 <initial> 8
+	@fffffffc <any> 3
+	@8 <any> 3
+	@fffffff8 <any> 3
+	@fffffff4 <any> 3
+@408630
+	@0 <any> 0
+	@4 <initial> 11
+	@8 <initial> 8
+	@fffffffc <any> 3
+@4086d0
+	@0 <any> 0
+	@4 <initial> 16
+	@8 <initial> 3
+	@c <initial> 16
+	@10 <initial> 3
+	@ffffff84 <any> 1
+	@ffffffe8 <any> 17
+	@ffffff88 <any> 34
+@408850
+	@0 <any> 0
+	@4 <initial> 39
+	@8 <initial> 8
+@408900
+	@0 <any> 0
+	@4 <initial> 11
+	@8 <initial> 16
+	@c <initial> 3
+@408ba0
+	@0 <any> 0
+	@4 <initial> 11
+	@8 <initial> 3
+@408bf0
+	@0 <any> 0
+	@4 <initial> 11
+	@8 <initial> 1
+	@c <initial> 3
+	@10 <initial> 8
+	@fffffec4 <any> 38
+	@fffffeb8 <any> 11
+	@ffffffa0 <any> 17
+	@ffffffb4 <any> 17
+	@fffffeb4 <any> 11
+	@fffffebc <any> 11
+@405630
+	@0 <any> 0
+@405680
+	@0 <any> 0
+	@4 <initial> 45
+	@fffffff4 <any> 6
+	@fffffff8 <any> 6
+@405830
+	@0 <any> 0
+	@4 <initial> 32
+@4061a0
+	@0 <any> 0
+	@4 <initial> 32
+@406b10
+	@0 <any> 0
+	@4 <initial> 45
+	@fffffff8 <any> 6
+@406c00
+	@0 <any> 0
+	@4 <initial> 45
+	@fffffff8 <any> 6
+	@ffffffec <any> 6
+	@fffffff4 <any> 6
+@406d20
+	@0 <any> 0
+	@4 <initial> 16
+@406d60
+	@0 <any> 0
+	@4 <initial> 45
+	@fffffff4 <any> 6
+	@ffffffec <any> 6
+@406ea0
+	@0 <any> 0
+	@4 <initial> 16
+@406ee0
+	@0 <any> 0
+	@4 <initial> 45
+	@fffffff4 <any> 6
+	@ffffffe4 <any> 6
+	@ffffffec <any> 6
+	@fffffff0 <any> 6
+@407030
+	@0 <any> 0
+@407040
+	@0 <any> 0
+@407050
+	@0 <any> 0
+@407060
+	@0 <any> 0
+@407070
+	@0 <any> 0
+	@4 <initial> 11
+@407080
+	@0 <any> 0
+	@4 <initial> 11
+	@8 <initial> 16
+@407150
+	@0 <any> 0
+	@4 <initial> 11
+	@8 <initial> 16
+@4071a0
+	@0 <any> 0
+	@4 <initial> 11
+	@8 <initial> 16
+@4071f0
+	@0 <any> 0
+	@4 <initial> 11
+	@8 <initial> 16
+@407220
+	@0 <any> 0
+	@4 <initial> 11
+	@8 <initial> 16
+	@c <initial> 3
+@407270
+	@0 <any> 0
+	@4 <initial> 11
+	@8 <initial> 16
+	@c <initial> 3
+@4072c0
+	@0 <any> 0
+	@4 <initial> 11
+	@8 <initial> 16
+	@c <initial> 3
+@4072e0
+	@0 <any> 0
+	@4 <initial> 11
+	@8 <initial> 16
+	@c <initial> 3
+@407300
+	@0 <any> 0
+	@4 <initial> 11
+	@8 <initial> 16
+	@c <initial> 3
+@407320
+	@0 <any> 0
+	@4 <initial> 11
+	@8 <initial> 16
+	@c <initial> 3
+@407340
+	@0 <any> 0
+	@4 <initial> 16
+	@8 <initial> 16
+	@c <initial> 3
+	@fffffe68 <any> 46
+@407440
+	@0 <any> 0
+	@4 <initial> 16
+	@8 <initial> 16
+	@c <initial> 3
+	@fffffe68 <any> 46
+@407540
+	@0 <any> 0
+	@4 <initial> 16
+	@8 <initial> 16
+	@c <initial> 16
+	@10 <initial> 3
+	@fffffe68 <any> 46
+@407680
+	@0 <any> 0
+	@4 <initial> 16
+	@8 <initial> 16
+	@c <initial> 16
+	@10 <initial> 3
+	@fffffe68 <any> 46
+@4077c0
+	@0 <any> 0
+	@fffffff4 <any> 17
+@4078e0
+	@0 <any> 0
+	@4 <initial> 16
+	@8 <initial> 16
+	@c <initial> 3
+	@ffffff78 <any> 46
+@407920
+	@0 <any> 0
+	@4 <initial> 16
+	@8 <initial> 16
+	@c <initial> 3
+	@ffffff78 <any> 46
+@407960
+	@0 <any> 0
+	@4 <initial> 11
+	@8 <initial> 16
+@4079f0
+	@0 <any> 0
+	@4 <initial> 11
+	@8 <initial> 16
+	@c <initial> 3
+@407a10
+	@0 <any> 0
+	@4 <initial> 11
+	@8 <initial> 16
+	@c <initial> 3
+@403730
+	@0 <any> 0
+@403770
+	@0 <any> 0
+	@4 <initial> 47
+@4037a0
+	@0 <any> 0
+	@4 <initial> 47
+@4037e0
+	@0 <any> 0
+	@4 <initial> 47
+@403810
+	@0 <any> 0
+	@4 <initial> 47
+	@8 <initial> 47
+	@c <initial> 47
+	@fffffff8 <any> 3
+@4038b0
+	@0 <any> 0
+	@4 <initial> 47
+@403900
+	@0 <any> 0
+	@4 <initial> 47
+	@8 <initial> 3
+	@c <initial> 47
+	@10 <initial> 3
+	@14 <initial> 47
+	@18 <initial> 3
+	@fffffff8 <any> 48
+	@fffffff4 <any> 6
+@403ac0
+	@0 <any> 0
+	@4 <initial> 47
+	@8 <initial> 47
+	@c <initial> 47
+	@fffffff0 <any> 47
+	@fffffff8 <any> 47
+	@8 <any> 3
+	@10 <any> 3
+	@ffffffec <any> 47
+@403e90
+	@0 <any> 0
+	@4 <initial> 47
+	@8 <initial> 47
+	@c <initial> 47
+	@fffffff8 <any> 47
+	@fffffff4 <any> 3
+@404130
+	@0 <any> 0
+	@4 <initial> 47
+@404160
+	@0 <any> 0
+	@4 <initial> 16
+	@8 <initial> 3
+@404220
+	@0 <any> 0
+	@4 <initial> 16
+	@8 <initial> 3
+	@c <initial> 49
+@404280
+	@0 <any> 0
+	@4 <initial> 47
+@4042b0
+	@0 <any> 0
+	@4 <initial> 47
+@4042f0
+	@0 <any> 0
+	@4 <initial> 47
+@404330
+	@0 <any> 0
+	@4 <initial> 47
+	@8 <initial> 3
+@404370
+	@0 <any> 0
+	@4 <initial> 47
+	@8 <initial> 3
+@4043b0
+	@0 <any> 0
+	@4 <initial> 47
+	@8 <initial> 3
+	@c <initial> 3
+@404400
+	@0 <any> 0
+	@4 <initial> 11
+	@8 <initial> 47
+@4044a0
+	@0 <any> 0
+	@4 <initial> 47
+	@8 <initial> 47
+@404510
+	@0 <any> 0
+	@4 <initial> 47
+	@8 <initial> 3
+	@fffffffc <any> 3
+@404620
+	@0 <any> 0
+	@4 <initial> 47
+	@8 <initial> 47
+	@c <initial> 47
+	@fffffffc <any> 3
+	@8 <any> 3
+	@fffffff8 <any> 3
+	@fffffff0 <any> 47
+@404800
+	@0 <any> 0
+	@4 <initial> 47
+	@8 <initial> 47
+@404820
+	@0 <any> 0
+	@4 <initial> 47
+@4048b0
+	@0 <any> 0
+	@4 <initial> 6
+@4048f0
+	@0 <any> 0
+	@4 <initial> 47
+	@8 <initial> 6
+	@8 <any> 3
+@4049a0
+	@0 <any> 0
+	@4 <initial> 47
+	@8 <initial> 48
+@4049f0
+	@0 <any> 0
+	@4 <initial> 47
+	@8 <initial> 47
+@404a50
+	@0 <any> 0
+	@4 <initial> 47
+	@8 <initial> 47
+@404ab0
+	@0 <any> 0
+	@4 <initial> 47
+	@8 <initial> 47
+	@8 <any> 47
+@404c20
+	@0 <any> 0
+	@4 <initial> 47
+	@8 <initial> 47
+	@fffffff0 <any> 47
+	@fffffff8 <any> 3
+	@fffffff4 <any> 47
+	@ffffffec <any> 47
+	@fffffffc <any> 47
+	@fffffff8 <any> 3
+@405000
+	@0 <any> 0
+	@4 <initial> 47
+	@fffffffc <any> 3
+	@fffffff8 <any> 1
+	@8 <any> 3
+@405110
+	@0 <any> 0
+	@4 <initial> 3
+@405190
+	@0 <any> 0
+	@4 <initial> 47
+	@8 <initial> 47
+	@c <initial> 47
+	@fffffff4 <any> 47
+	@ffffffe4 <any> 3
+	@ffffffe8 <any> 3
+	@fffffff0 <any> 47
+	@fffffffc <any> 47
+	@fffffff8 <any> 47
+	@ffffffec <any> 3
+@401730
+	@0 <any> 0
+	@4 <initial> 50
+	@8 <initial> 32
+	@fffffffc <any> 3
+@4019e0
+	@0 <any> 0
+	@4 <initial> 50
+	@8 <initial> 32
+	@ffffffe8 <any> 6
+	@ffffffe4 <any> 3
+@401df0
+	@0 <any> 0
+	@4 <initial> 50
+	@8 <initial> 32
+	@ffffffe0 <any> 6
+	@ffffffdc <any> 3
+@402350
+	@0 <any> 0
+	@4 <initial> 50
+	@8 <initial> 32
+	@fffffffc <any> 3
+@402600
+	@0 <any> 0
+	@4 <initial> 50
+	@8 <initial> 32
+	@ffffffe8 <any> 6
+	@ffffffe4 <any> 3
+@402a10
+	@0 <any> 0
+	@4 <initial> 50
+	@8 <initial> 32
+	@ffffffe0 <any> 6
+	@ffffffdc <any> 3
+@402f80
+	@0 <any> 0
+	@4 <initial> 3
+	@8 <initial> 16
+	@fffffff8 <any> 3
+	@fffffffc <any> 6
+	@8 <any> 6
+@403210
+	@0 <any> 0
+@403220
+	@0 <any> 0
+@403230
+	@0 <any> 0
+	@4 <initial> 3
+	@fffffff0 <any> 6
+@4033b0
+	@0 <any> 0
+	@4 <initial> 16
+	@8 <initial> 50
+	@ffffffd0 <any> 6
+	@ffffffe0 <any> 6
+	@fffffff0 <any> 6
+@4034e0
+	@0 <any> 0
+@4034f0
+	@0 <any> 0
+	@4 <initial> 11
+@403500
+	@0 <any> 0
+	@4 <initial> 11
+	@8 <initial> 16
+@403520
+	@0 <any> 0
+	@4 <initial> 11
+	@8 <initial> 16
+@403540
+	@0 <any> 0
+	@4 <initial> 11
+	@8 <initial> 16
+@403560
+	@0 <any> 0
+	@4 <initial> 11
+	@8 <initial> 16
+@4035f0
+	@0 <any> 0
+	@4 <initial> 11
+	@8 <initial> 16
+	@c <initial> 3
+@403610
+	@0 <any> 0
+	@4 <initial> 11
+	@8 <initial> 16
+	@c <initial> 3
+@403630
+	@0 <any> 0
+	@4 <initial> 16
+	@8 <initial> 16
+	@c <initial> 3
+	@fffffc10 <any> 51
+@4036b0
+	@0 <any> 0
+	@4 <initial> 16
+	@8 <initial> 16
+	@c <initial> 3
+	@fffffc10 <any> 51
+@401000
+	@0 <any> 0
+	@4 <initial> 1
+	@fffffffc <any> 1
+@4010d0
+	@0 <any> 0
+	@4 <initial> 16
+	@8 <initial> 3
+	@c <initial> 1
+@401160
+	@0 <any> 0
+	@4 <initial> 52
+@401170
+	@0 <any> 0
+	@4 <initial> 52
+@401180
+	@0 <any> 0
+	@4 <initial> 52
+	@8 <initial> 12
+	@c <initial> 8
+@4011b0
+	@0 <any> 0
+	@4 <initial> 52
+	@8 <initial> 11
+	@c <initial> 3
+	@c <any> 1
+@401210
+	@0 <any> 0
+	@4 <initial> 6
+	@8 <initial> 6
+	@ffffff34 <any> 4
+@4012b0
+	@0 <any> 0
+	@4 <initial> 11
+	@8 <initial> 6
+	@c <initial> 6
+	@ffffff34 <any> 4
+@401370
+	@0 <any> 0
+	@4 <initial> 11
+@401390
+	@0 <any> 0
+	@4 <initial> 1
+@4013d0
+	@0 <any> 0
+	@4 <initial> 1
+@401490
+	@0 <any> 0
+	@4 <initial> 1
+	@8 <initial> 1
+@401500
+	@0 <any> 0
+	@4 <initial> 40
+@4015a0
+	@0 <any> 0
+	@4 <initial> 52
+@4015d0
+	@0 <any> 0
+	@4 <initial> 52
+	@8 <initial> 11
+	@c <initial> 3
+	@fffffffc <any> 1
+@4016b0
+	@0 <any> 0
+	@4 <initial> 52
+	@8 <initial> 3
+@401710
+	@0 <any> 0
+	@4 <initial> 1
+###############################################################
+#    GLOBALS
+###############################################################
+@423738 <global> 8
+@423740 <global> 8
+@423758 <global> 8
+@42375c <global> 8
+@42373c <global> 3
+@423750 <global> 1
+@423764 <global> 1
+@423754 <global> 3
+@423734 <global> 14
+@423748 <global> 14
+@423730 <global> 3
+@42374c <global> 0
+@423768 <global> 14
+@423760 <global> 8
+@4205e8 <global> 17
+@4200e0 <global> 43
+@420108 <global> 43
+@420130 <global> 43
+@420158 <global> 44
+@420164 <global> 44
+@41f8e0 <global> 6
+@41f4f8 <global> 43
+@41f520 <global> 43
+@41f548 <global> 43
+@41f570 <global> 43
+@41f598 <global> 43
+@41f5c0 <global> 43
+@41f5e8 <global> 43
+@41f610 <global> 44
+@41d298 <global> 17
+@41d398 <global> 17
+@41d498 <global> 6
+@41d898 <global> 6
+@41dc98 <global> 6
+@41e098 <global> 6
+@41e498 <global> 6
+@41e898 <global> 6
+@41ec98 <global> 6
+@41f098 <global> 6
+###############################################################
+#    STATS
+###############################################################
+#
+#  functions:  265
+#  parameters: 514
+#  returns:    0
+#  locals:     645
+#  globals:    39
+#  types:      53

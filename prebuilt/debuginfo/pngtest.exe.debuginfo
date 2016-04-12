@@ -1,0 +1,151 @@
+Parsing dia2dump output ./dia2dump/pngtest.exe.dia2dump with base 0x400000
+###############################################################
+#    TYPES
+###############################################################
+type 16 float64_t
+type 10 ptr(struct(0:uint32_t,128:float32_t,132:float32_t,4:uint32_t,260:num32_t,8:uint32_t,172:ptr(num8_t),12:uint32_t,256:num32_t,16:ptr(struct(0:uint8_t,1:uint8_t,2:uint8_t)),152:float32_t,208:uint8_t,20:uint16_t,196:ptr(num8_t),22:uint16_t,24:uint8_t,25:uint8_t,26:uint8_t,27:uint8_t,28:uint8_t,29:uint8_t,30:uint8_t,31:uint8_t,32:uint8_t,176:ptr(ptr(num8_t)),164:num32_t,244:ptr(num8_t),40:float32_t,156:float32_t,44:uint8_t,240:ptr(num8_t),48:num32_t,136:float32_t,52:num32_t,181:uint8_t,56:ptr(struct(0:num32_t,4:ptr(num8_t),8:ptr(num8_t),12:uint32_t,16:uint32_t,20:ptr(num8_t),24:ptr(num8_t))),180:uint8_t,60:struct(0:uint16_t,2:uint8_t,3:uint8_t,4:uint8_t,5:uint8_t,6:uint8_t),232:float64_t,192:uint32_t,160:ptr(num8_t),68:struct(0:uint8_t,1:uint8_t,2:uint8_t,3:uint8_t,4:uint8_t),204:uint32_t,200:ptr(num8_t),140:float32_t,76:ptr(uint8_t),80:struct(0:uint8_t,8:uint16_t,2:uint16_t,4:uint16_t,6:uint16_t),184:uint32_t,212:ptr(struct(0:ptr(num8_t),8:ptr(struct(0:uint16_t,8:uint16_t,2:uint16_t,4:uint16_t,6:uint16_t)),4:uint8_t,12:num32_t)),284:num32_t,216:uint32_t,90:struct(0:uint8_t,8:uint16_t,2:uint16_t,4:uint16_t,6:uint16_t),248:ptr(ptr(uint8_t)),220:uint8_t,280:num32_t,224:float64_t,144:float32_t,100:num32_t,276:num32_t,104:num32_t,188:ptr(struct(0:uint8_t,8:ptr(uint8_t),12:uint32_t,16:uint8_t)),252:num32_t,108:uint8_t,272:num32_t,112:uint32_t,168:num32_t,116:uint32_t,268:num32_t,120:uint8_t,148:float32_t,124:ptr(uint16_t),264:num32_t))
+type 12 ptr(struct(0:uint8_t,8:uint16_t,2:uint16_t,4:uint16_t,6:uint16_t))
+type 19 uint8_t
+type 18 ptr(struct(0:uint16_t,2:uint8_t,3:uint8_t,4:uint8_t,5:uint8_t,6:uint8_t))
+type 1 num8_t
+type 13 ptr(uint16_t)
+type 3 ptr(num8_t)
+type 4 code_t
+type 15 ptr(struct(0:uint8_t,1:uint8_t,2:uint8_t,3:uint8_t,4:uint8_t))
+type 14 ptr(ptr(num8_t))
+type 9 ptr(struct(0:ptr(num8_t),4:num32_t,8:ptr(num8_t),12:num32_t,16:num32_t,20:num32_t,24:num32_t,28:ptr(num8_t)))
+type 11 ptr(struct(0:uint8_t,1:uint8_t,2:uint8_t))
+type 2 uint32_t
+type 5 ptr(struct(0:num32_t,512:ptr(uint16_t),516:ptr(uint16_t),520:ptr(uint16_t),524:ptr(num8_t),528:uint32_t,600:struct(0:uint8_t,8:ptr(uint8_t),12:uint32_t,16:uint8_t),532:ptr(TOP),536:code_t,540:num32_t,544:ptr(uint8_t),548:uint8_t,550:uint16_t,552:uint16_t,554:uint16_t,556:uint32_t,560:num32_t,564:uint8_t,568:ptr(TOP),572:code_t,64:code_t,68:code_t,72:code_t,76:ptr(TOP),80:code_t,84:code_t,88:ptr(TOP),92:code_t,96:code_t,100:ptr(TOP),104:uint8_t,105:uint8_t,108:uint32_t,112:uint32_t,116:uint32_t,120:struct(0:ptr(uint8_t),32:code_t,4:uint32_t,48:uint32_t,8:uint32_t,44:num32_t,12:ptr(uint8_t),16:uint32_t,40:ptr(TOP),20:uint32_t,24:ptr(num8_t),36:code_t,28:ptr(struct(0:TOP,128:uint32_t,5788:uint32_t,4:num32_t,5204:num32_t,8:ptr(uint8_t),5804:uint32_t,5784:ptr(uint8_t),12:uint32_t,16:ptr(uint8_t),2840:struct(0:ptr(struct(0:BOT,2:BOT)),8:ptr(num32_t),4:num32_t),20:uint32_t,24:num32_t,132:num32_t,28:ptr(struct(0:num32_t,32:uint32_t,4:uint32_t,48:num32_t,8:num32_t,44:num32_t,12:num32_t,16:ptr(uint8_t),40:uint32_t,20:uint32_t,24:uint32_t,36:ptr(uint8_t),28:ptr(uint8_t))),32:uint32_t,2864:struct(0:ptr(struct(0:BOT,2:BOT)),8:ptr(num32_t),4:num32_t),36:uint8_t,40:num32_t,2908:num32_t,44:uint32_t,5200:num32_t,48:uint32_t,136:num32_t,52:uint32_t,56:ptr(uint8_t),5812:num32_t,60:uint32_t,64:ptr(uint16_t),5792:uint32_t,2440:struct(0:BOT,2:BOT),5820:num32_t,68:ptr(uint16_t),72:uint32_t,140:uint32_t,76:uint32_t,80:uint32_t,5816:uint16_t,84:uint32_t,88:uint32_t,2852:struct(0:ptr(struct(0:BOT,2:BOT)),8:ptr(num32_t),4:num32_t),5808:uint32_t,92:num32_t,5208:uint8_t,96:uint32_t,144:num32_t,100:uint32_t,2876:uint16_t,104:num32_t,2684:struct(0:BOT,2:BOT),108:uint32_t,112:uint32_t,5800:uint32_t,5796:ptr(uint16_t),116:uint32_t,120:uint32_t,148:struct(0:BOT,2:BOT),124:uint32_t)),52:uint32_t),620:uint32_t,624:uint32_t,176:ptr(uint8_t),180:uint32_t,184:num32_t,628:ptr(num8_t),188:num32_t,192:num32_t,196:num32_t,200:num32_t,204:uint32_t,208:uint32_t,632:uint32_t,212:uint32_t,216:uint32_t,220:uint32_t,224:uint32_t,228:uint32_t,232:uint32_t,236:ptr(uint8_t),240:ptr(uint8_t),244:ptr(uint8_t),248:ptr(uint8_t),252:ptr(uint8_t),256:ptr(uint8_t),260:struct(0:uint32_t,4:uint32_t,8:uint8_t,9:uint8_t,10:uint8_t,11:uint8_t),272:uint32_t,276:uint32_t,280:ptr(struct(0:uint8_t,1:uint8_t,2:uint8_t)),284:uint16_t,286:uint16_t,288:uint8_t,293:uint8_t,294:uint8_t,295:uint8_t,296:uint8_t,297:uint8_t,298:uint8_t,299:uint8_t,300:uint8_t,301:uint8_t,302:uint8_t,303:uint8_t,304:uint8_t,306:uint16_t,308:uint8_t,312:float32_t,316:struct(0:uint8_t,8:uint16_t,2:uint16_t,4:uint16_t,6:uint16_t),326:struct(0:uint8_t,8:uint16_t,2:uint16_t,4:uint16_t,6:uint16_t),336:code_t,340:uint32_t,344:uint32_t,348:num32_t,352:float32_t,356:float32_t,360:ptr(uint8_t),364:ptr(uint8_t),368:ptr(uint8_t),372:ptr(ptr(uint16_t)),376:ptr(ptr(uint16_t)),380:ptr(ptr(uint16_t)),384:struct(0:uint8_t,1:uint8_t,2:uint8_t,3:uint8_t,4:uint8_t),576:code_t,389:struct(0:uint8_t,1:uint8_t,2:uint8_t,3:uint8_t,4:uint8_t),396:ptr(uint8_t),400:struct(0:uint8_t,8:uint16_t,2:uint16_t,4:uint16_t,6:uint16_t),580:ptr(uint8_t),412:code_t,416:code_t,420:code_t,424:code_t,428:code_t,432:ptr(uint8_t),584:uint8_t,436:ptr(uint8_t),440:ptr(uint8_t),444:ptr(uint8_t),448:uint32_t,452:uint32_t,456:uint32_t,588:uint32_t,460:uint32_t,464:uint32_t,468:uint32_t,472:num32_t,476:num32_t,480:uint32_t,592:uint32_t,484:uint32_t,488:ptr(num8_t),492:ptr(num8_t),496:ptr(uint16_t),500:uint8_t,501:uint8_t,504:ptr(uint8_t),596:uint32_t,508:ptr(uint16_t)))
+type 7 ptr(uint8_t)
+type 0 num32_t
+type 17 ptr(struct(0:num32_t,4:ptr(num8_t),8:ptr(num8_t),12:uint32_t,16:uint32_t,20:ptr(num8_t),24:ptr(num8_t)))
+type 6 ptr(struct(0:uint32_t,4:uint32_t,8:uint8_t,9:uint8_t,10:uint8_t,11:uint8_t))
+type 8 ptr(struct(0:uint8_t,8:ptr(uint8_t),12:uint32_t,16:uint8_t))
+###############################################################
+#    FUNCTIONS
+###############################################################
+@401000
+	@0 <any> 4
+	@4 <initial> 5
+	@8 <initial> 2
+	@c <initial> 0
+@401090
+	@0 <any> 4
+	@4 <initial> 5
+	@8 <initial> 2
+	@c <initial> 0
+@4010d0
+	@0 <any> 4
+	@4 <initial> 5
+	@8 <initial> 6
+	@c <initial> 7
+@4010f0
+	@0 <any> 4
+	@4 <initial> 5
+	@8 <initial> 6
+	@c <initial> 7
+@401210
+	@0 <any> 4
+	@4 <initial> 5
+	@8 <initial> 8
+@4012d0
+	@0 <any> 4
+	@4 <initial> 3
+	@8 <initial> 3
+	@x240 <any> 10
+	@x254 <any> 0
+	@x23c <any> 7
+	@x22c <any> 5
+	@x228 <any> 5
+	@x230 <any> 10
+	@x25c <any> 0
+	@fffffcf8 <any> 2
+	@x248 <any> 2
+	@x238 <any> 10
+	@x234 <any> 10
+	@x124 <any> 1
+	@x224 <any> 1
+	@fffffd08 <any> 0
+	@fffffd18 <any> 0
+	@fffffd10 <any> 0
+	@x274 <any> 0
+	@x27c <any> 0
+	@fffffcf0 <any> 0
+	@fffffd3c <any> 0
+	@fffffd34 <any> 0
+	@x26c <any> 0
+	@fffffcfc <any> 0
+	@fffffd04 <any> 0
+	@x284 <any> 0
+	@x294 <any> 3
+	@x28c <any> 3
+	@fffffd2c <any> 0
+	@fffffd0c <any> 2
+	@x264 <any> 0
+	@fffffd24 <any> 11
+	@x29c <any> 0
+	@fffffd5c <any> 12
+	@fffffd00 <any> 13
+	@fffffd1c <any> 0
+	@fffffd4c <any> 0
+	@fffffd54 <any> 0
+	@fffffd14 <any> 0
+	@x270 <any> 0
+	@fffffd44 <any> 3
+	@x280 <any> 3
+	@fffffcf4 <any> 14
+	@x268 <any> 0
+	@x278 <any> 0
+	@x290 <any> 2
+	@x288 <any> 0
+	@x298 <any> 2
+	@x2a0 <any> 15
+	@fffffd58 <any> 0
+	@fffffce0 <any> 16
+	@fffffce8 <any> 16
+	@fffffd48 <any> 17
+	@fffffd50 <any> 0
+	@x24c <any> 18
+	@fffffd38 <any> 0
+	@fffffd30 <any> 7
+	@fffffd40 <any> 12
+	@x250 <any> 8
+	@x18 <any> 19
+	@x241 <any> 19
+	@x24 <any> 19
+	@x10 <any> 19
+	@fffffd20 <any> 17
+	@fffffd28 <any> 0
+	@x258 <any> 18
+	@x260 <any> 8
+@401fc0
+	@0 <any> 4
+	@4 <initial> 0
+	@8 <initial> 14
+	@fffffffc <any> 0
+###############################################################
+#    GLOBALS
+###############################################################
+@4244b4 <global> 0
+@424020 <global> 1
+@4244b8 <global> 0
+@424040 <global> 0
+@4244bc <global> 0
+@424044 <global> 0
+@424098 <global> 2
+@4244b0 <global> 2
+@4244c0 <global> 0
+@424498 <global> 2
+@424048 <global> 3
+@42404c <global> 3
+###############################################################
+#    STATS
+###############################################################
+#
+#  functions:  7
+#  parameters: 18
+#  returns:    0
+#  locals:     74
+#  globals:    12
+#  types:      20

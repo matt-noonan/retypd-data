@@ -1,0 +1,90 @@
+Parsing dia2dump output ./dia2dump/upnpc-static.exe.dia2dump with base 0x400000
+###############################################################
+#    TYPES
+###############################################################
+type 10 struct(0:uint16_t,2:uint16_t,4:num8_t,261:num8_t,390:uint16_t,392:uint16_t,396:ptr(num8_t))
+type 11 struct(0:ptr(num8_t),8:ptr(num8_t),4:ptr(num8_t))
+type 2 num8_t
+type 12 struct(0:num8_t,128:num8_t,260:struct(0:num8_t,128:num8_t,384:num8_t,256:num8_t),256:num32_t,1796:struct(0:num8_t,128:num8_t,384:num8_t,256:num8_t),772:struct(0:num8_t,128:num8_t,384:num8_t,256:num8_t),1284:struct(0:num8_t,128:num8_t,384:num8_t,256:num8_t))
+type 1 ptr(num8_t)
+type 0 code_t
+type 3 ptr(struct(0:ptr(num8_t),8:ptr(num8_t),4:ptr(num8_t)))
+type 6 num64_t
+type 5 uint32_t
+type 4 ptr(struct(0:num8_t,128:num8_t,260:struct(0:num8_t,128:num8_t,384:num8_t,256:num8_t),256:num32_t,1796:struct(0:num8_t,128:num8_t,384:num8_t,256:num8_t),772:struct(0:num8_t,128:num8_t,384:num8_t,256:num8_t),1284:struct(0:num8_t,128:num8_t,384:num8_t,256:num8_t)))
+type 7 num32_t
+type 9 ptr(struct(0:ptr(struct(0:TOP,8:ptr(num8_t),4:ptr(num8_t),12:num8_t)),8:ptr(num8_t),4:ptr(num8_t),12:num8_t))
+type 8 ptr(ptr(num8_t))
+###############################################################
+#    FUNCTIONS
+###############################################################
+@401000
+	@0 <any> 0
+@401510
+	@0 <any> 0
+	@4 <initial> 3
+	@8 <initial> 4
+@401380
+	@0 <any> 0
+	@4 <initial> 4
+	@8 <initial> 1
+	@c <initial> 1
+	@ffffffec <any> 2
+	@ffffffd4 <any> 2
+	@ffffffdc <any> 2
+@401260
+	@0 <any> 0
+	@4 <initial> 3
+	@8 <initial> 4
+	@ffffff64 <any> 2
+	@ffffff2c <any> 2
+	@ffffff54 <any> 2
+	@ffffff34 <any> 2
+	@ffffff24 <any> 2
+	@ffffff1c <any> 2
+	@ffffff3c <any> 2
+	@ffffff44 <any> 2
+	@ffffffa4 <any> 2
+@401070
+	@0 <any> 0
+	@4 <initial> 4
+	@ffffff78 <any> 2
+	@ffffff10 <any> 5
+	@ffffffb8 <any> 2
+	@ffffff20 <any> 6
+	@ffffff28 <any> 2
+	@ffffff38 <any> 2
+	@ffffff1c <any> 5
+	@ffffff18 <any> 5
+@4011e0
+	@0 <any> 0
+	@fffffffc <any> 5
+@401570
+	@0 <any> 0
+	@4 <initial> 7
+	@8 <initial> 8
+	@fffff4fc <any> 7
+	@fffff50c <any> 1
+	@fffff510 <any> 9
+	@fffff518 <any> 8
+	@fffff514 <any> 1
+	@fffff4f8 <any> 7
+	@fffff4f7 <any> 2
+	@ffffffb4 <any> 2
+	@fffff50c <any> 7
+	@fffffe24 <any> 10
+	@fffff500 <any> 11
+	@fffff51c <any> 12
+###############################################################
+#    GLOBALS
+###############################################################
+###############################################################
+#    STATS
+###############################################################
+#
+#  functions:  7
+#  parameters: 10
+#  returns:    0
+#  locals:     40
+#  globals:    0
+#  types:      13

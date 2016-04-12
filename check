@@ -1,0 +1,3 @@
+#!/bin/bash
+
+python compare.py ./debuginfo/$1.debuginfo ./data/$1.decls ./data/$1.map

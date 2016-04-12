@@ -1,0 +1,290 @@
+Parsing dia2dump output ./dia2dump/ogg.dll.dia2dump with base 0x10000000
+###############################################################
+#    TYPES
+###############################################################
+type 12 ptr(TOP)
+type 8 struct(0:ptr(uint8_t),8:ptr(uint8_t),4:num32_t,12:num32_t)
+type 2 ptr(struct(0:ptr(uint8_t),8:ptr(uint8_t),4:num32_t,12:num32_t))
+type 7 num8_t
+type 1 code_t
+type 6 ptr(struct(0:ptr(uint8_t),4:num32_t,8:num32_t,12:num32_t,16:num32_t,20:num32_t,24:num32_t))
+type 11 ptr(struct(0:num32_t,8:ptr(uint8_t),4:num32_t,12:ptr(uint8_t),16:num32_t))
+type 3 ptr(struct(0:ptr(uint8_t),32:num32_t,4:num32_t,328:num32_t,8:num32_t,324:num32_t,12:num32_t,340:num32_t,352:num64_t,16:ptr(num32_t),40:uint8_t,20:ptr(num64_t),336:num32_t,24:num32_t,36:num32_t,28:num32_t,332:num32_t,344:num64_t))
+type 5 ptr(struct(0:ptr(uint8_t),4:num32_t,8:num32_t,12:num32_t,16:num64_t,24:num64_t))
+type 9 num64_t
+type 0 uint32_t
+type 10 ptr(uint8_t)
+type 4 num32_t
+###############################################################
+#    FUNCTIONS
+###############################################################
+@10001a00
+	@0 <any> 1
+	@4 <initial> 2
+@10001a10
+	@0 <any> 1
+	@4 <initial> 2
+@10001a20
+	@0 <any> 1
+	@4 <initial> 2
+@10001a30
+	@0 <any> 1
+	@4 <initial> 2
+@10001a40
+	@0 <any> 1
+	@4 <initial> 2
+@10001ad0
+	@0 <any> 1
+	@4 <initial> 2
+@10001b00
+	@0 <any> 1
+	@4 <initial> 2
+@10001b30
+	@0 <any> 1
+	@4 <initial> 2
+@10001b60
+	@0 <any> 1
+	@4 <initial> 3
+	@8 <initial> 4
+@10001bd0
+	@0 <any> 1
+	@4 <initial> 3
+@10001c20
+	@0 <any> 1
+	@4 <initial> 3
+@10001c40
+	@0 <any> 1
+@10001c70
+	@0 <any> 1
+@10001cb0
+	@0 <any> 1
+	@4 <initial> 2
+@10001d60
+	@0 <any> 1
+	@4 <initial> 3
+	@8 <initial> 5
+	@c <any> 4
+@10001f10
+	@0 <any> 1
+	@4 <initial> 3
+	@8 <initial> 2
+	@8 <any> 4
+@10002130
+	@0 <any> 1
+	@4 <initial> 3
+	@8 <initial> 2
+@10002180
+	@0 <any> 1
+	@4 <initial> 3
+@10002190
+	@0 <any> 1
+	@4 <initial> 6
+@100021c0
+	@0 <any> 1
+	@4 <initial> 6
+@10002200
+	@0 <any> 1
+	@4 <initial> 6
+@10002240
+	@0 <any> 1
+	@4 <initial> 6
+	@8 <initial> 4
+@100022c0
+	@0 <any> 1
+	@4 <initial> 6
+	@8 <initial> 4
+@100022e0
+	@0 <any> 1
+	@4 <initial> 6
+	@8 <initial> 2
+	@8 <any> 7
+	@fffffff0 <any> 8
+@10002420
+	@0 <any> 1
+	@4 <initial> 6
+	@8 <initial> 2
+@10002470
+	@0 <any> 1
+	@4 <initial> 3
+	@8 <initial> 2
+	@fffffff8 <any> 9
+	@ffffffd8 <any> 4
+	@fffffff0 <any> 4
+	@ffffffe0 <any> 10
+	@fffffff4 <any> 4
+	@ffffffe8 <any> 4
+	@c <any> 4
+	@ffffffdc <any> 4
+	@ffffffe4 <any> 4
+	@ffffffec <any> 4
+@10002790
+	@0 <any> 1
+	@4 <initial> 6
+@100027b0
+	@0 <any> 1
+	@4 <initial> 3
+@10002800
+	@0 <any> 1
+	@4 <initial> 3
+	@8 <initial> 4
+@10002860
+	@0 <any> 1
+	@4 <initial> 4
+	@fffffff8 <any> 4
+	@fffffffc <any> 4
+@100029a0
+	@0 <any> 1
+	@4 <initial> 3
+	@8 <initial> 5
+@100029c0
+	@0 <any> 1
+	@4 <initial> 3
+	@8 <initial> 5
+@100029e0
+	@0 <any> 1
+	@4 <initial> 5
+@10001000
+	@0 <any> 1
+	@4 <initial> 11
+@10001040
+	@0 <any> 1
+	@4 <initial> 11
+@10001080
+	@0 <any> 1
+	@4 <initial> 11
+	@8 <initial> 4
+@100010b0
+	@0 <any> 1
+	@4 <initial> 11
+	@8 <initial> 4
+@100010e0
+	@0 <any> 1
+	@4 <initial> 11
+	@8 <initial> 0
+	@c <initial> 4
+@100011e0
+	@0 <any> 1
+	@4 <initial> 11
+	@8 <initial> 0
+	@c <initial> 4
+@100012d0
+	@0 <any> 1
+	@4 <initial> 11
+@100012f0
+	@0 <any> 1
+	@4 <initial> 11
+@10001310
+	@0 <any> 1
+	@4 <initial> 4
+	@8 <initial> 1
+	@c <initial> 4
+@100013e0
+	@0 <any> 1
+	@4 <initial> 11
+	@8 <initial> 12
+	@c <initial> 4
+@10001410
+	@0 <any> 1
+	@4 <initial> 11
+	@8 <initial> 12
+	@c <initial> 4
+@10001440
+	@0 <any> 1
+	@4 <initial> 11
+@10001460
+	@0 <any> 1
+	@4 <initial> 11
+@10001480
+	@0 <any> 1
+	@4 <initial> 11
+@100014b0
+	@0 <any> 1
+	@4 <initial> 11
+@100014e0
+	@0 <any> 1
+	@4 <initial> 11
+	@8 <initial> 10
+	@c <initial> 4
+@10001510
+	@0 <any> 1
+	@4 <initial> 11
+	@8 <initial> 10
+	@c <initial> 4
+@10001540
+	@0 <any> 1
+	@4 <initial> 11
+	@8 <initial> 4
+@100015e0
+	@0 <any> 1
+	@4 <initial> 11
+	@8 <initial> 4
+@10001680
+	@0 <any> 1
+	@4 <initial> 11
+@100016a0
+	@0 <any> 1
+	@4 <initial> 11
+@100016d0
+	@0 <any> 1
+	@4 <initial> 11
+	@8 <initial> 4
+@10001700
+	@0 <any> 1
+	@4 <initial> 11
+	@8 <initial> 4
+@10001730
+	@0 <any> 1
+	@4 <initial> 11
+@10001750
+	@0 <any> 1
+	@4 <initial> 11
+@10001770
+	@0 <any> 1
+	@4 <initial> 11
+	@8 <initial> 4
+	@c <any> 0
+@10001830
+	@0 <any> 1
+	@4 <initial> 11
+	@8 <initial> 4
+	@c <any> 4
+@100018f0
+	@0 <any> 1
+	@4 <initial> 11
+@10001930
+	@0 <any> 1
+	@4 <initial> 11
+@10001980
+	@0 <any> 1
+	@4 <initial> 11
+@100019a0
+	@0 <any> 1
+	@4 <initial> 11
+@100019b0
+	@0 <any> 1
+	@4 <initial> 11
+@100019d0
+	@0 <any> 1
+	@4 <initial> 11
+@100019e0
+	@0 <any> 1
+	@4 <initial> 11
+@100019f0
+	@0 <any> 1
+	@4 <initial> 11
+###############################################################
+#    GLOBALS
+###############################################################
+@1000d1e8 <global> 0
+@1000d140 <global> 0
+@1000d1c4 <global> 0
+###############################################################
+#    STATS
+###############################################################
+#
+#  functions:  68
+#  parameters: 100
+#  returns:    0
+#  locals:     86
+#  globals:    3
+#  types:      13

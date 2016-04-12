@@ -1,0 +1,442 @@
+Parsing dia2dump output ./dia2dump/libidn.dll.dia2dump with base 0x10000000
+###############################################################
+#    TYPES
+###############################################################
+type 19 ptr(struct(0:ptr(num8_t),4:ptr(struct(0:reg32_t,8:ptr(struct(0:uint32_t,8:uint32_t,4:uint32_t)),4:reg32_t))))
+type 24 ptr(TOP)
+type 15 struct(0:ptr(num8_t),8:uint32_t,4:ptr(num8_t),12:ptr(struct(0:uint32_t,4:uint32_t)))
+type 18 ptr(ptr(num8_t))
+type 5 ptr(uint8_t)
+type 16 ptr(struct(0:uint32_t,8:uint32_t,4:uint32_t))
+type 13 reg32_t
+type 17 ptr(struct(0:reg32_t,8:ptr(struct(0:uint32_t,8:uint32_t,4:uint32_t)),4:reg32_t))
+type 10 struct(0:uint32_t,4:uint16_t,6:uint16_t)
+type 21 ptr(struct(0:ptr(num8_t),8:uint32_t,4:ptr(num8_t),12:ptr(struct(0:uint32_t,4:uint32_t))))
+type 12 ptr(ptr(TOP))
+type 4 ptr(uint32_t)
+type 7 num16_t
+type 2 num32_t
+type 14 struct(0:uint32_t,4:uint32_t)
+type 11 ptr(num32_t)
+type 3 ptr(num8_t)
+type 22 ptr(ptr(struct(0:ptr(num8_t),8:uint32_t,4:ptr(num8_t),12:ptr(struct(0:uint32_t,4:uint32_t)))))
+type 23 struct(0:ptr(uint32_t),4:ptr(uint32_t))
+type 20 ptr(ptr(uint32_t))
+type 9 uint8_t
+type 6 num8_t
+type 1 code_t
+type 0 uint32_t
+type 8 uint16_t
+###############################################################
+#    FUNCTIONS
+###############################################################
+@10003000
+	@0 <any> 1
+	@4 <initial> 0
+	@8 <initial> 2
+@10002ff0
+	@0 <any> 1
+@10002fd0
+	@0 <any> 1
+	@4 <initial> 2
+@10002fa0
+	@0 <any> 1
+@100032e0
+	@0 <any> 1
+	@4 <initial> 0
+	@8 <initial> 3
+	@c <initial> 4
+	@10 <initial> 4
+	@0 <initial> 5
+	@ffffffe4 <any> 0
+	@ffffffe0 <any> 0
+	@ffffffe8 <any> 0
+	@fffffff8 <any> 0
+	@fffffff4 <any> 0
+	@ffffffec <any> 0
+@10003060
+	@0 <any> 1
+	@4 <initial> 0
+	@8 <initial> 4
+	@0 <initial> 5
+	@c <initial> 4
+	@10 <initial> 3
+	@fffffff4 <any> 0
+	@ffffffec <any> 0
+	@ffffffdc <any> 0
+	@fffffff8 <any> 0
+	@ffffffe8 <any> 0
+	@fffffff0 <any> 0
+	@ffffffe0 <any> 0
+@100025d0
+	@0 <any> 1
+	@4 <initial> 4
+@10002540
+	@0 <any> 1
+	@4 <initial> 2
+@10002490
+	@0 <any> 1
+@10002280
+	@0 <any> 1
+	@4 <initial> 4
+	@fffffff4 <any> 2
+	@ffffffe8 <any> 2
+@10002050
+	@0 <any> 1
+	@4 <initial> 11
+	@fffffff8 <any> 2
+@10001fb0
+	@0 <any> 1
+@10001ee0
+	@0 <any> 1
+	@4 <initial> 3
+@10001eb0
+	@0 <any> 1
+	@4 <initial> 2
+@10002d30
+	@0 <any> 1
+	@4 <initial> 3
+	@8 <initial> 2
+	@c <initial> 4
+@10002d20
+	@0 <any> 1
+	@4 <initial> 0
+	@8 <initial> 3
+@10002d10
+	@0 <any> 1
+	@4 <initial> 3
+@10002660
+	@0 <any> 1
+@10002180
+	@0 <any> 1
+	@4 <initial> 4
+	@8 <initial> 11
+	@c <initial> 11
+	@0 <initial> 12
+@10002d50
+	@0 <any> 1
+	@4 <initial> 4
+	@8 <initial> 2
+	@c <initial> 4
+	@10 <initial> 4
+@100027b0
+	@0 <any> 1
+	@4 <initial> 3
+	@8 <initial> 2
+	@0 <initial> 13
+	@ffffffe8 <any> 4
+	@ffffffec <any> 0
+	@ffffffe8 <any> 0
+	@fffffff0 <any> 3
+	@fffffff8 <any> 0
+	@fffffff4 <any> 0
+	@fffffff4 <any> 0
+@10002d80
+	@0 <any> 1
+	@4 <initial> 4
+	@8 <initial> 2
+@10002c20
+	@0 <any> 1
+	@4 <initial> 13
+	@fffffffc <any> 4
+@10002d70
+	@0 <any> 1
+	@4 <initial> 3
+	@8 <initial> 2
+@100011d0
+	@0 <any> 1
+@10003960
+	@0 <any> 1
+@10003990
+	@0 <any> 1
+	@4 <initial> 4
+	@8 <initial> 0
+	@c <initial> 4
+	@10 <initial> 16
+@10003a00
+	@0 <any> 1
+	@4 <initial> 4
+	@8 <initial> 0
+	@c <initial> 16
+	@fffffff4 <any> 0
+@10003ae0
+	@0 <any> 1
+	@4 <initial> 4
+	@8 <initial> 4
+	@c <initial> 0
+	@10 <initial> 13
+	@14 <initial> 17
+	@fffffff8 <any> 0
+	@ffffffe4 <any> 0
+	@fffffff4 <any> 2
+	@fffffff0 <any> 2
+	@ffffffec <any> 2
+	@ffffffe8 <any> 2
+@10003ee0
+	@0 <any> 1
+	@4 <initial> 3
+	@8 <initial> 0
+	@c <initial> 13
+	@10 <initial> 17
+	@fffffff8 <any> 0
+@10003e50
+	@0 <any> 1
+	@4 <initial> 0
+@10003ff0
+	@0 <any> 1
+	@4 <initial> 3
+	@8 <initial> 18
+	@c <initial> 3
+	@10 <initial> 13
+	@fffffff4 <any> 0
+	@fffffff8 <any> 19
+@10003e80
+	@0 <any> 1
+	@4 <initial> 4
+	@8 <initial> 0
+	@c <initial> 13
+	@10 <initial> 17
+@10003750
+	@0 <any> 1
+	@4 <initial> 13
+@10003570
+	@0 <any> 1
+@10001230
+	@0 <any> 1
+	@4 <initial> 4
+	@8 <initial> 3
+	@c <initial> 2
+	@fffffff8 <any> 0
+@100017f0
+	@0 <any> 1
+	@4 <initial> 2
+	@ffffffb8 <any> 6
+@100014e0
+	@0 <any> 1
+	@4 <initial> 3
+	@8 <initial> 4
+	@c <initial> 2
+	@ffffffb8 <any> 6
+@10001a30
+	@0 <any> 1
+	@4 <initial> 3
+	@8 <initial> 18
+	@c <initial> 2
+	@fffffff8 <any> 0
+@10001780
+	@0 <any> 1
+	@4 <initial> 4
+	@8 <initial> 4
+	@c <initial> 2
+	@fffffff8 <any> 2
+@10001b20
+	@0 <any> 1
+	@4 <initial> 20
+	@8 <initial> 2
+	@fffffff0 <any> 4
+	@ffffffec <any> 4
+	@fffffff4 <any> 0
+@10001a80
+	@0 <any> 1
+	@4 <initial> 3
+	@8 <initial> 18
+	@c <initial> 2
+@10001c80
+	@0 <any> 1
+	@4 <initial> 3
+	@8 <initial> 20
+	@c <initial> 2
+	@fffffff8 <any> 0
+@10001cd0
+	@0 <any> 1
+	@4 <initial> 3
+	@8 <initial> 18
+	@c <initial> 2
+	@fffffff4 <any> 4
+	@fffffff8 <any> 2
+@10001df0
+	@0 <any> 1
+	@fffffff8 <any> 3
+@10001e50
+	@0 <any> 1
+	@4 <initial> 3
+	@8 <initial> 18
+	@c <initial> 2
+@10001180
+	@0 <any> 1
+@10004770
+	@0 <any> 1
+	@4 <initial> 3
+@10004400
+	@0 <any> 1
+@100042a0
+	@0 <any> 1
+@10004210
+	@0 <any> 1
+@10004470
+	@0 <any> 1
+	@4 <initial> 4
+	@8 <initial> 0
+	@c <initial> 4
+	@10 <initial> 21
+@10004390
+	@0 <any> 1
+	@4 <initial> 18
+@10004360
+	@0 <any> 1
+	@4 <initial> 18
+@10004270
+	@0 <any> 1
+@10004510
+	@0 <any> 1
+	@4 <initial> 4
+	@8 <initial> 0
+	@c <initial> 4
+	@c <any> 3
+@100044d0
+	@0 <any> 1
+	@4 <initial> 4
+	@8 <initial> 21
+@100045d0
+	@0 <any> 1
+	@4 <initial> 4
+	@8 <initial> 22
+	@fffffff8 <any> 0
+@10004590
+	@0 <any> 1
+	@4 <initial> 4
+	@8 <initial> 22
+@10004620
+	@0 <any> 1
+	@4 <initial> 4
+	@8 <initial> 22
+@10003910
+	@0 <any> 1
+@10003710
+	@0 <any> 1
+@10002e20
+	@0 <any> 1
+@10002df0
+	@0 <any> 1
+@10002db0
+	@0 <any> 1
+@10002e50
+	@0 <any> 1
+	@4 <initial> 4
+	@8 <initial> 0
+@10002f30
+	@0 <any> 1
+@10002f50
+	@0 <any> 1
+@10001220
+	@0 <any> 1
+@10001170
+	@0 <any> 1
+@10001160
+	@0 <any> 1
+@10001140
+	@0 <any> 1
+@10001130
+	@0 <any> 1
+@10001100
+	@0 <any> 1
+@100010d0
+	@0 <any> 1
+@100010c0
+	@0 <any> 1
+@100010b0
+	@0 <any> 1
+@100010a0
+	@0 <any> 1
+@10001090
+	@0 <any> 1
+@10001070
+	@0 <any> 1
+@10001050
+	@0 <any> 1
+@10001030
+	@0 <any> 1
+@10001010
+	@0 <any> 1
+@10001000
+	@0 <any> 1
+	@4 <initial> 2
+@100046b0
+	@0 <any> 1
+	@4 <initial> 3
+	@8 <initial> 3
+	@c <initial> 3
+@10004690
+	@0 <any> 1
+@10004740
+	@0 <any> 1
+	@4 <initial> 3
+@10004710
+	@0 <any> 1
+	@4 <initial> 3
+@10004110
+	@0 <any> 1
+	@4 <initial> 9
+	@4 <any> 5
+@100038c0
+	@0 <any> 1
+@100036e0
+	@0 <any> 1
+###############################################################
+#    GLOBALS
+###############################################################
+@10018810 <global> 0
+@100261f0 <global> 6
+@1001bb38 <global> 7
+@1001a040 <global> 6
+@1002a288 <global> 8
+@1001a140 <global> 9
+@1002c288 <global> 7
+@1002c2f0 <global> 8
+@1002c680 <global> 8
+@1002c638 <global> 8
+@1001c138 <global> 10
+@1001978c <global> 3
+@1001b540 <global> 7
+@10006188 <global> 14
+@10006178 <global> 15
+@100061f0 <global> 15
+@10006118 <global> 14
+@10019840 <global> 0
+@10019820 <global> 0
+@10018dcc <global> 0
+@10019868 <global> 0
+@10019800 <global> 0
+@100197e8 <global> 0
+@10019808 <global> 0
+@10019878 <global> 0
+@1001906c <global> 0
+@10030020 <global> 0
+@10019818 <global> 0
+@10019810 <global> 0
+@10019828 <global> 0
+@10019fd0 <global> 23
+@10018ba4 <global> 0
+@10019920 <global> 0
+@10019830 <global> 0
+@100197e0 <global> 0
+@10019858 <global> 0
+@10019850 <global> 0
+@10018d24 <global> 0
+@10019860 <global> 0
+@10019870 <global> 0
+@10018814 <global> 0
+@100198c8 <global> 0
+@10019848 <global> 0
+@100197f0 <global> 0
+@10019f60 <global> 0
+###############################################################
+#    STATS
+###############################################################
+#
+#  functions:  91
+#  parameters: 121
+#  returns:    0
+#  locals:     140
+#  globals:    45
+#  types:      25

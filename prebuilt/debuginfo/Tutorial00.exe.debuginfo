@@ -1,0 +1,52 @@
+Parsing dia2dump output ./dia2dump/Tutorial00.exe.dia2dump with base 0x400000
+###############################################################
+#    TYPES
+###############################################################
+type 2 ptr(num32_t)
+type 8 ptr(uint16_t)
+type 9 struct(0:ptr(num32_t),4:uint32_t,8:uint32_t,12:num32_t,16:uint32_t,20:struct(0:num32_t,4:num32_t))
+type 0 code_t
+type 7 struct(0:num32_t,8:num32_t,4:num32_t,12:num32_t)
+type 4 struct(0:ptr(num32_t),32:uint8_t,4:num32_t,8:struct(0:num32_t,8:num32_t,4:num32_t,12:num32_t),24:num32_t,28:num32_t)
+type 3 uint32_t
+type 6 struct(0:uint32_t,32:ptr(num32_t),4:uint32_t,8:code_t,44:ptr(num32_t),12:num32_t,16:num32_t,40:ptr(uint16_t),20:ptr(num32_t),24:ptr(num32_t),36:ptr(uint16_t),28:ptr(num32_t))
+type 1 num32_t
+type 5 uint16_t
+###############################################################
+#    FUNCTIONS
+###############################################################
+@401000
+	@0 <any> 0
+	EAX <final> 1
+	@4 <initial> 2
+	@8 <initial> 3
+	@c <initial> 3
+	@10 <initial> 1
+	@ffffffbc <any> 4
+@401090
+	@0 <any> 0
+	EAX <final> 1
+	@4 <initial> 2
+	@8 <initial> 1
+	@ffffffd0 <any> 6
+	@ffffffc0 <any> 7
+@4011b0
+	@0 <any> 0
+	@4 <initial> 2
+	@8 <initial> 2
+	@c <initial> 8
+	@10 <initial> 1
+	@ffffffe4 <any> 9
+###############################################################
+#    GLOBALS
+###############################################################
+###############################################################
+#    STATS
+###############################################################
+#
+#  functions:  3
+#  parameters: 10
+#  returns:    2
+#  locals:     7
+#  globals:    0
+#  types:      10
